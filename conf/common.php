@@ -3,7 +3,7 @@
 return [
 
     // 基础url
-    'base_url' => 'http://ct7-1/texd/',
+    'base_url' => 'http://www.eewak.com/',
 
     // 文档的相对路径
     'doc_relative_dir' => 'data',

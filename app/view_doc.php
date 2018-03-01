@@ -11,7 +11,8 @@ use \app\Conf;
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>文档 - markdown.</title>
+    <title># 知行 ←_← 开发笔记</title>
+    <link rel="icon" href="<?= Conf::$all['base_url'] ?>favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="<?= Conf::$all['base_url'] ?>asset/lib/normalize.css">
     <link rel="stylesheet" href="<?= Conf::$all['base_url'] ?>asset/style.css?<?= rand() ?>">
