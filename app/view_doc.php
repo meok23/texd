@@ -15,7 +15,7 @@ use \app\Conf;
     <link rel="icon" href="<?= Conf::$all['base_url'] ?>favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="<?= Conf::$all['base_url'] ?>asset/lib/normalize.css">
-    <link rel="stylesheet" href="<?= Conf::$all['base_url'] ?>asset/style.css?<?= rand() ?>">
+    <link rel="stylesheet" href="<?= Conf::$all['base_url'] ?>asset/style.css">
 
     <!--markdown样式-->
     <link rel="stylesheet" href="<?= Conf::$all['base_url'] ?>asset/lib/github-markdown.css">
