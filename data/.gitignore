@@ -1,0 +1,25 @@
+# 常规忽略
+###############################
+
+# vim
+*~
+*.swp
+*.swo
+
+# ide
+.settings/
+.buildpath
+.project
+.idea/
+nbproject/
+
+# windows
+Thumbs.db
+Desktop.ini
+
+# mac
+.DS_Store
+*/.DS_Store
+
+# other
+.svn/

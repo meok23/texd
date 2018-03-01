@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+
+// 设置时区
+date_default_timezone_set("PRC");
+
+// 系统目录的定义
+define('ROOT_PATH', __DIR__ . '/');
+
+// 注册自动加载方法
+require ROOT_PATH . 'app/Autoload.php';
+\app\Autoload::register();
+
+// 加载配置文件
+\app\Conf::load(['common']);
+
+// 实例化调用控制器
+$con = new \app\Controller();
+echo $con->buildNav();
